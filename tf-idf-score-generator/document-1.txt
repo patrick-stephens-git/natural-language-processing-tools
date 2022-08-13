@@ -1,0 +1,279 @@
+Vehicles Guide
+PZwiki:Language policy Language:	English • 日本語 • русский
+Navigation:Main Index>The Game World>Vehicles>Vehicles GuidePage Updated: Version 39.67.5
+DrivingSpiffo.png
+Spiffo knows all about driving vehicles.
+Vehicles are a form of driveable transport found in Project Zomboid and located throughout Knox Country. They can be found outside homes and in parking lots.
+Contents
+1	Types
+2	Controls
+3	Car Keys
+4	Hot-wiring
+5	Tools
+6	Vehicle Mechanics Menu
+7	Engine quality
+7.1	Installing/Uninstalling Vehicle Parts
+7.2	Repairs/Replacements
+7.3	Specialty Repairs
+8	Dashboard
+9	Refueling
+Types
+Vehicles come in three different types, along with parts which can only be installed in their corresponding vehicle type. A Recipe magazine must be read before the player can add, remove or repair parts.
+
+Standard
+Laines Auto Manual - Standard Models Laines Auto Manual - Standard Models
+Heavy-Duty
+Laines Auto Manual - Commercial Models Laines Auto Manual - Commercial Models
+Sport
+Laines Auto Manual - Performance Models Laines Auto Manual - Performance Models
+There are currently 9 different vehicle models available, however there are multiple variants from branded, like the Fossoil Chevalier D6, to emergency, like the Police Chevalier Nyala. Vehicles belonging to a certain profession will have relevant items spawn inside. For example, an Ambulance may contain medical supplies.
+
+Controls
+Many of the vehicle controls can be customised in the game options. The controls displayed below are the default key-bindings.
+
+Pressing V will bring up the vehicle's radial menu – the vehicle's radial menu can be accessed from inside the vehicle or when standing adjacent to the vehicle. When sitting inside the vehicle you will be granted access to the ignition, car radio, headlights and more. When standing near the vehicle you will have access to opening, closing and locking the doors and trunk along with other features. An open door will allow you to access the inventory on the seats.
+Vehicle Radial Menu Vehicle Radial Menu Exterior
+Pressing N will start or shut off the engine. Pressing W inside the vehicle will also start the engine, if it is off.
+Pressing E will enter or exit the vehicle, though be sure to get in on the driver’s side for a swift exit.
+Pressing F will toggle the headlights.
+Pressing Q will sound the horn.
+Pressing O will bring up the heater controls.
+Pressing U will bring up the Vehicle Mechanics menu.
+Car Keys
+Car keys will only grant access to a specific vehicle. They are required to start the engine, unlock doors, unlock the trunk and use the accessories on the dashboard.
+
+They can found:
+
+On the ground in parking lots near the vehicle.
+Inside storage containers in nearby houses.
+Inside the vehicle in the ignition, glove box, etc.
+A key icon will appear over your character if they are in close proximity to the vehicle while possessing its key, indicating that it can be accessed and driven.
+
+Player has the vehicle's key
+
+Hot-wiring
+If the car key can't be located, a vehicle can be hot-wired if the player has the required skills of: 1 electrical and 2 mechanics. Hot-wiring will change the ignition key slot icon on the dashboard and display the key icon above all players when they approach the vehicle. Therefore, a hotwired vehicle can be accessed by anyone, which may not be desired on a multiplayer game.
+
+To hotwire a car, you must use the radial menu, where the "Start Engine" option will be replaced with a "Hotwire Engine" option. Other methods of starting the engine such as clicking on the ignition key slot or pressing "w" will not work to start the vehicle without a key.
+
+Locked doors can be accessed by smashing the window or removing it from within the vehicle's mechanics menu. A failed attempt to hotwire will not damage the vehicle or screwdriver but may attract unwanted attention. Engines with a higher quality, are harder to hotwire.
+
+Tools
+Item	Description	Classname
+CarJack.png
+Jack	Used to removed tires, allowing access to brakes and suspension.	Base.Jack
+LugWrench.png
+Lug Wrench	Used to remove tires, allowing access to brakes and suspension.	Base.LugWrench
+TirePump.png
+Tire Pump	Used to inflate tires	Base.TirePump
+Wrench.png
+Wrench	Used to remove large parts: hoods, trunk lids, doors.	Base.Spanner
+Smallscrewdriver.png
+Screwdriver	Used to remove small parts: batteries, windows, radios.	Base.Screwdriver
+Vehicle Mechanics Menu
+The Vehicle Mechanics Menu displays information about various components of the vehicle. It displays the condition of all the parts within the vehicle, shown in a gradient from green (100%) to red (0%) – whereas a part that is missing will flash red. This information can be accessed by pressing E at the front of the vehicle, using the vehicle radial menu or by right-clicking the vehicle opening the context menu.
+
+VehicleMechanics.png
+
+The main display shows the durability/condition rather than the quality rating of the part. Batteries and gas tanks have an additional quality, which is the power or gasoline remaining and is displayed in the upper right details section.
+Certain parts are prone to wear and tear. Tires, suspension and mufflers can be damaged with normal use. A random chance of damage will occur when the vehicle is moving more than 10MPH. Other factors considered are: current speed, whether the vehicle is on or off road, the vehicles off road efficiency, steering angle or pitch, how long the vehicle has been running.
+Taken from lua code in Vehicles.lua: vehicle:getCurrentSpeedKmHour(), vehicle:isDoingOffroad(), vehicle:getScript():getOffroadEfficiency().
+Engines have different horse power ratings, loudness and quality.
+Mufflers have a noise multiplier. An old muffler will give a higher rating than a performance muffler.
+Engine quality
+Engine quality (do not confuse with its condition) is determined on vehicle creation and cannot be raised by any means; it mainly affects chance to start engine and its power. Maximum is 100.
+Emergency vehicles (ambulance, fire, police) usually have 90-100 engine quality.
+Chance to fail engine start on each try is 30 / (quality + 50) * 100% ;
+for example, 65 quality engine has 30 / (65 + 50) * 100% = 26% chance to fail start.
+
+Engines with 100 quality skips aforemented check, but still has 1% to fail start due another one.
+Engines with quality 65 or less, get extra chance to fail, if weather is too cold.
+Installing/Uninstalling Vehicle Parts
+To install or uninstall a vehicle part, the part must be in the player's inventory or an accessible container. Unlike other occupations, a specific mechanics skill is not required to install or uninstall parts, instead the player must learn the recipe by reading the recipe magazine corresponding to the vehicle. A higher mechanic skill will increase the chances of installing/uninstalling the part without damaging it, the recommended skill is shown in the vehicle's info panel. Vehicle parts for a certain type will not be compatible with other vehicle types. For example, a heavy-duty wheel cannot be installed in a standard vehicle.
+
+While in the Vehicle Mechanics Menu, right-click the part that needs to be installed/uninstalled and select "Install" or "Uninstall".
+
+There are three major part subtypes in addition to the major vehicle type (Standard, Heavy-Duty, Sports).
+
+Part	Subtypes	Vehicle Types
+CarTire.png
+Tire	Valu-Tire
+Regular Tire
+Performance Tire	Standard
+Heavy-Duty
+Sport
+CarBrakes.png
+Brake	Old Brake
+Regular Brake
+Performance Brake	Standard
+Heavy-Duty
+Sport
+CarSuspension.png
+Suspension	Regular Suspension
+Performance Suspension	Standard
+Heavy-Duty
+Sport
+CarGastank.png
+Gas Tank	Small Gas Tank
+Standard Gas Tank
+Big Gas Tank	Standard
+Heavy-Duty
+Sport
+CarTrunk.png
+Trunk	Small Trunk
+Standard Trunk
+Big Trunk	Standard
+Heavy-Duty
+Sport
+Windshield
+Windshield	Windshield
+Rear Windshield	Standard
+Heavy-Duty
+Sport
+Side Window
+Side Window	Front Window
+Rear Window	Standard
+Heavy-Duty
+Sport
+CarDoorFront.pngCarDoorRear.png
+Door	Front Door
+Rear Door
+Double Rear Door	Standard
+Heavy-Duty
+Sport
+EngineDoor.png
+Hood	Hood	Standard
+Heavy-Duty
+Sport
+EngineDoor.png
+Trunk Lid	Trunk Lid	Standard
+Heavy-Duty
+Sport
+CarSeat.png
+Seat	Standard Seat
+Big Seat
+Sports Seat	Standard
+Heavy-Duty
+Sport
+CarMuffler.png
+Muffler	Old Muffler
+Average Muffler
+Performance Muffler	Standard
+Heavy-Duty
+Sport
+Repairs/Replacements
+Author's note: In cases, where there are mutliple methods available, each one is written as method a), b), c) and so on.
+Each item is required from each marking. (Everything beginning with "a)" is required for method "a)". )
+
+Part	Tool	Recipe	Item	Skill
+CarSeat.png
+Seat	Screwdriver	Laines Auto Manual - Standard Models	Seat	Mechanics 2
+Radio.png
+Radio	Screwdriver	-	Radio	-
+CarGastank.png
+Gas Tank	Screwdriver
+Wrench	Laines Auto Manual - Standard Models	Gas Tank	Mechanics 5
+CarBattery.png
+Car Battery	Screwdriver	-	Car Battery	-
+CarMuffler.png
+Muffler	Wrench	Laines Auto Manual - Standard Models	Muffler	Mechanics 5
+CarTire.png
+Tire	Jack
+Lug Wrench	-	Tire	Mechanics 1
+CarBrakes.png
+Brake	Jack
+Wrench	Laines Auto Manual - Standard Models	Brake	Mechanics 3
+CarSuspension.png
+Suspension	Jack
+Wrench	Laines Auto Manual - Standard Models	Suspension	Mechanics 3
+EngineDoor.png
+Trunk Lid	Repair:
+a) Propane Torch
+b) Propane Torch
+c) None
+
+Replace:
+Wrench	Repair:
+-
+Replace:
+Laines Auto Manual - Standard Models	Repair:
+a) Metal Sheet
+b) Small Metal Sheet x2
+c) Metal Sheet, Screws x8
+
+Replace:
+Trunk Lid	Repair:
+a) Metalworking 1, Mechanics 2
+b) Metalworking 1, Mechanics 2
+c) Mechanics 2
+
+Replace:
+Mechanics 3
+CarTrunk.png
+Trunk	Propane Torch	-	a) Metal Sheet
+b) Small Metal Sheet x2	Metalworking 3
+Mechanics 2
+EngineDoor.png
+Hood	Repair:
+a) -
+b) Propane Torch
+c) Propane Torch
+
+Replace:
+Wrench	Repair:
+-
+Replace:
+Laines Auto Manual - Standard Models	Repair:
+a) Metal Sheet, Screws x8
+b) Metal Sheet
+c) Small Metal Sheet x2
+
+Replace:
+Hood	Repair:
+a) Mechanics 2
+b) Metalworking 1, Mechanics 2
+c) Metalworking 1, Mechanics 2
+
+Replace:
+Mechanics 3
+CarWindshield.png
+Windshield	Screwdriver	Laines Auto Manual - Standard Models	Windshield	Mechanics 5
+CarWindshield.png
+Rear Windshield	Screwdriver	Laines Auto Manual - Standard Models	Rear Windshield	Mechanics 5
+SideWindow.png
+Side Window	Screwdriver	Laines Auto Manual - Standard Models	Side Window	Mechanics 3
+CarDoorFront.pngCarDoorRear.png
+Door	Wrench	Laines Auto Manual - Standard Models	Car Door	Mechanics 4
+LightBulb.png
+Headlights/Taillights	Screwdriver	-	Light Bulb	-
+Specialty Repairs
+Engines require the player to have the car key, or to have hot-wired the vehicle, in order to repair or obtain spare engine parts SpareEngineParts.png.. Removing parts will reduce the engine durability to 0 even if no parts are received. An engine can be repaired to 100% but may require additional spare engine parts.
+Trunks cannot be swapped or fully repaired. They can be repaired with glue, duct tape, metal sheet or small metal sheet (requires metalworking skill).
+Heaters are not repairable or swappable.
+Radios can be swapped with a standard household radio found in game.
+Dashboard
+VehicleDashboard.png
+
+Enginetrouble light.png Engine Light - turns engine on or off.
+Battery light.png Battery
+Outside Temperature
+Doorslocked light.png Door locks - Locks or unlocks doors.
+Headlights light.png Headlights - Turns lights on or off.
+Heating light.png Heater/AC - Turns Heating or Air conditioner on or off.
+Trunk light.png Trunk Lock - Locks or unlocks trunk.
+Ignition light.png Ignition - Key storage slot. Key can be left in ignition engine off.
+The indicators on the dashboard have three primary colors.
+
+Grey: off
+Green: working/enabled/on.
+Orange: starting.
+Red: broken/disabled/off.
+Refueling
+A vehicle can be refueled by right-clicking on it and selecting "refuel", the option to "siphon gas" is available if the player has an empty gas can. Vehicles can be refueled using a gas can or at a gas pump, provided the gas pump is connected to a power source. If the option to refuel from the gas pump does not appear, the gas cap may be too far away from the pump; try repositioning the vehicle so that the gas cap is on the same side as the gas pump, most vehicles have gas caps on the driver's side.
+
+
+Fossoil gas pump
+ 
+
+Gas-2-Go gas pump
+Categories: Version 39VehiclesVehicles and Mechanics (Project)

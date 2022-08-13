@@ -1,0 +1,109 @@
+A Guide to Cars/Vehicles – Project Zomboid
+April 9, 2021 by Jeff
+Vehicles arrived as one of the most impactful content updates to the game’s early access devlopement so far. While they have been in the game for quite a while now there are still lots of questions that have gone unanswered about how to drive cars, use them or fill them with gas. This page will be your one stop shop for everything about vehicles in Project Zomboid.
+Contents
+How to Find a Car in Project Zomboid
+How to Get in a Locked Car
+Driving the Car
+Refilling Gas
+Vehicle Maintenance and Mechanics
+The Radial Menu
+Changing Seats in the Vehicle
+Hot-wiring a Vehicle (With Video)
+How to Find a Car in Project Zomboid
+In Project Zomboid, cars can spawn randomly on the map. Depending on your difficulty setting, the chance of a car spawning may be low or high. One of the best places to look for cars is in the various parking lots scattered throughout the map. Most large commercial stores such as shops and gas stations have a parking lot which should spawn some vehicles in it.
+
+Finding a car in Project Zomboid
+Parking lots are one of the best places to find a car in Project Zomboid
+If you’ve gone into a parking lot and haven’t found any vehicles, chances are you’ve just gotten unlucky with the spawn. Either that, or the car spawn rate is set very low, or non-existent at all. Keep on checking out those parking lots and eventually you should come across a car.
+How to Get in a Car
+Now that you’ve found a car, you’re probably wondering how to get inside of it. you can enter a car through any of the doors available on it. Some cars will have 4 doors whilst others will only have 2. By walking against the car you should notice that the doors are highlighted. To get into a car, move up against a door until it is highlighted and then press the E key on your keyboard. Your character will attempt to open the door.
+
+smashing car window in project zomboid
+Smash it up
+If the door of the vehicle is unlocked then congratulations! You will have your character enter the car. If the door is locked the player will try to grab the handle and unsuccessfully enter the car. If this is the case you will have two options to get into the car; either find a key for the car or break the window. Be aware that smashing a window of the car will destroy it, meaning if you destroy the drivers window, there nothing stopping enemies from reaching into the car and biting or scratching you.
+
+How to Find Car Keys
+There are generally two places to find car keys near the car. You can sometimes find a key for a car inside the glove box of the vehicle. Gain entry to the car and check the loot tab and change over to the glove box icon to check it out. There’s a rare chance that the key will be in there. If there is a key in there, double click it or drag it to your character’s inventory to take it with you. I recommend moving it straight onto your key ring so the inventory doe s not get too cluttered.
+finding car keys in the glove compartment of a car in project zomboid
+You can sometimes find car keys in the globe compartment of the car.
+As mentioned above, if the car doors are locked you can break into a car by destroying one of the windows. Always check the glove compartment of a car.
+
+Occasionally you can find car keys just lying on the ground. If you see a small key icon on the ground then it is your lucky day! This key belongs to one of the cars close by. Check the image below for an example of what a car key on the ground looks like so when you come across it you’ll know.
+
+Finding a car key on the ground in Project Zomboid
+Keep your eyes peeled for car keys on the ground
+In Project Zomboid car keys are color-coded to the car that they are from. For example in the image above you can see a black car key on the ground and this is the only black car around so I can pretty safely assume it is the key for this car. If the car was red, the key would be red.
+This helps you figure out which car the key is for in large parking lots.
+
+How to Drive a Car in Project Zomboid
+Driving a vehicle is pretty easy in Project Zomboid. To turn the car on, if you have the key already, you should see the key visible in the ignition in the UI at the bottom of the screen. If you attempt to move forward using the W key your character will attempt to start the car automatically. Otherwise you can use the N key to turn the can on and off, and click on the ignition in the UI at the bottom of the screen to take the key in and out.
+
+The dash of the car in-game in Project Zomboid
+The in-game vehicle UI
+The controls of operation are very similar to movement on foot. Turning left and right is the same as the movement keys and going forward and back is done with W and S respectively. There are some other useful hotkeys to learn which I will list below. To see all available hotkeys for driving, consult the in-game controls menu in the options.
+
+The vehicle controls available in Project Zomboid
+The in-game vehicle controls.
+Using the game’s car UI at the bottom of the screen, you can click any of the options as well. Using the mouse you can click the door lock to lock or unlock the car doors and turn on the various instruments in the car. Be aware that leaving a heater, lights or radio on while the car is switched off can run the battery flat. Then you will have to charge your battery using a battery charger, or swap it with a different car’s battery.
+How to Fill a Car With Gas
+To fill a car up with gas from a pump, park the car next to the gas pump. Make sure you have the car parked on the correct side that the fuel insert is on. Then, right-click the car and select the option that reads “Refuel from gas pump”. Your character will walk around the car and start filling fuel from the gas pump. It there is no longer town electricity in your game, you’ll have to use a generator to power the gas pump in order to use it.
+
+Filling a car with gas in Project Zomboid
+You can fill cars straight from a powered gas pump
+Using the gas pump is one of the best ways to fill a car up with fuel as you can fill up the tank completely and it doesn’t take very long to do. If you aren’t seeing am option to fill the car up from the gas pump, try getting back in the car and turning it around to the other side, or parking it closer to the gas pump.
+Fill Up a Car With Gas From a Container
+Gas can also be stored in gas containers as well. When you see a container they may or not have fuel already inside of them. You can refill the gas on a car directly from a gas container by equipping the container containing gas and right-clicking on the vehicle.
+
+Adding gasoline to vehicle in project zomboid
+You can add gasoline to your car straight from a gas can
+Another way to fill up your empty gas cans is by siphoning the gas from other cars. Even if the other car does not switch on due to damage, you may be able to take that gasoline from it. To siphon a vehicle and take the gas from it’s gas tank, equip the gasoline container in the primary or secondary hand and right-click a vehicle with gas in it. You should see an option to ‘Siphon Gasoline’.
+
+Once you select this option you character will move over to the gas tank on the chosen vehicle and begin transferring the gas from the car into the container. This gas can then be used to fill up other cars. There is only one type of gas in the game. All cars run on the same type of gas.
+
+Vehicle Maintenance and Mechanics
+One of the many different skills that can be leveled and used in Project Zomboid is the Mechanics skill. This skill makes it possible to perform different mechanical operations on your vehicle. If you open up the interaction menu on a vehicle and select the “Mechanics” option, your character will pop the hood of the car and take a loot at the vehicles’ parts.
+
+The vehicle mechanics menu in project zomboid
+In this screen, you can check which parts are installed and in what condition they are. You can also interact with most of these parts. If you have the right tools and mechanical expertise you can swap and change parts from other cars into your own car. You can even remove parts and leave them off if you wish. The game doesn’t just stop at changing tires, you can pull out radios, exchange windows, exhaust pipes and basically everything you can see in the vehicle mechanics menu.
+
+For some of the operations you will need to have read the auto manual which gives your character information on how to work on the car. There is a “Laine’s Auto Manual” for each of the three car types. Standard, commercial and performance manual. To work on a car and exchange parts you will have to read the manual for that type of car.
+Finding the Laines auto manual in project zomboid to  do advanced mechanics on cars
+One reason you might not have to read a manual is if you start the game as the “Mechanic” profession. As this character was a mechanic by trade before the apocalypse began, they already start with the knowledge on how to fix and work on cars.
+
+Laine’s Auto Manuals are fairly common throughout Project Zomboid. You can find them where most books are, in bookcases of residential and commercial buildings. If you’re really stuck, try the book store in West point as shown in the image above. The back room of this store has boxes and shelves absolutely brimming with books.
+
+How to Level Up the Mechanics Skill
+This one is not really going to be a shock to anyone. The way that you upgrade and gain experience in the mechanics skill is by performing mechanical task. Be it changing a tire or exchanging a light bulb, every car related action you take will give your character experience in the mechanics skill level.
+
+Reading skill multiplier books in project zomboid
+Skill multiplier books can help you gain levels fast
+As with the other skills, there are also books that can be read in the mechanics profession that will temporarily boost the character’s experience gain when working with mechanics. These books are labelled ‘Mechanics for: Beginners/Intermediates’ and ‘Advanced Mechanics’. Depending on your current skill level you will need a different type of book to gain the experience boost. For example, if you already have level 4 in mechanics the ‘Mechanics for Beginners’ book isn’t going to give you any bonus when read, as it only gives a bonus to the skill level being learn for the 1st and 2nd level of mechanics.
+
+Using the Vehicle Radial Menu
+By holding the V key down on your keyboard whilst in a vehicle you will open up the vehicle radial menu. This wheel menu will make it easier to do things whilst in a vehicle. There are a bunch of options that you can choose from here that can’t be found anywhere else. For example, you will have to open up this menu in order to attempt to sleep in your vehicle. You can press up on the D-PAD whilst using a controller to access this menu.
+The vehicle radial menu in Project Zomboid
+The vehicle radial menu in Project Zomboid
+I will list all of the available actions from this menu starting from 12:00 moving clockwise.
+
+Switch Seats: This option will open up a top down view of the car layout allowing you to move to a different seat of the vehicle
+Shut Off/Hotwire: If the player does not have the keys to the car this area will be for the hotwire action. If they have the keys, select this option to turn the car off.
+Light on/off: Turn the headlamps on or off.
+Heater/AC: Opens the A/C menu which allows the player to warm or cool down the car using the air conditioner/heater.
+Horn: Sounds the horn which attracts enemies in the area to the car’s position
+Radio: Opens up the radio menu so the player can listen to music.
+Open Window: Opens the window of the seat you are currently sitting at. Opening the window will render the air-conditioner useless.
+Lock Doors: Locks/Unlocks all doors to the vehicle
+Vehicle Mechanics: Forces the player out of the car and to the hood where they will examine the vehicles mechanics
+Sleep: If the player is tired enough they can sleep in their vehicle. (Make sure you’re in a safe location first)
+Exit Vehicle: The player leaves the vehicle from whichever side they are sitting on.
+Changing the radio station and heater in Project Zomboid can cause the car battery to go flat
+Keep yourself warm and occupied with the heater and radio. Be careful not to drain your battery though
+There are many different options available through the vehicle’s radial menu. This is especially good if your can’t remember all of the hotkeys for vehicle operation as well. Some vehicles will have more options as well, such as the police and emergency vehicles having a siren which can be turned on and off.
+
+How to Change Seats in a Car in Project Zomboid
+As seen in the above section on using the vehicle radial menu in Project Zomboid you can change seats in a car by holding the V key down whilst inside a vehicle. Then, select the option at the top of the radial menu. Once you select this, you will see an overview of your current can and be able to change to whichever seat you’d like.
+Hot-wire a Vehicle
+If you have a certain level of skill in both mechanics and electrical in Project Zomboid you are able to attempt to hot-wire a car if you don’t have the key already. Hot-wiring will however, mean that if you are playing in multiplayer anybody will be able to access and drive the car. There is no way to undo a hot-wired car.
+
+Click here for a guide to hot-wiring in Project Zomboid.
