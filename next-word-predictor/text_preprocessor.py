@@ -10,14 +10,14 @@ from nltk.corpus import stopwords
 import re
 
 # ## Import Training Data (Text Corpus) via input URL:
-url = 'https://en.wikipedia.org/wiki/Music_theory'
+url = 'https://www.gutenberg.org/files/57354/57354-h/57354-h.htm'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
           }
 req = requests.get(url, headers)
 soup = BeautifulSoup(req.content, 'html.parser')
 training_text = soup.get_text()
-print(training_text)
+# print(training_text)
 
 ## Import Training Data (Text Corpus) via input File:
 # with open('training-text.txt', encoding='utf-8') as input_file:
